@@ -19,9 +19,10 @@ module.exports = {
   //base name
   //https://github.com/charles-mrt.github.io/ignite-lab-design-system
   viteFinal: (config, { configType }) => {
-    const baseName = '/ignite-lab-design-system';
+    const baseName = '/ignite-lab-design-system/';
     if (configType === 'PRODUCTION' ) {
       condfig.base = baseName;
     }
+    return config
   }
 }
