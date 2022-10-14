@@ -19,7 +19,7 @@ export function Button({ children, asChild, className, ...props }: ButtonProps) 
             )}
             {...props}
         >
-            <SignIn size={24} />
+            <SignIn className="text-xl"/>
             {children}
 
         </Component>
